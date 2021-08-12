@@ -1,0 +1,12 @@
+Batch Scripts Support
+CMD Support
+Lombook Plugin
+MavenRunHelper
+com.github.beansoftapp.reatnative.idea
+com.intellij.plugins.html.instantEditing
+com.jetbrains.lang.ejs
+com.wix.eslint
+mobi.hsz.idea.gitignore
+org.github.plugin.redis-simple
+org.jetbrains.plugins.vue
+org.sonarlint.idea
