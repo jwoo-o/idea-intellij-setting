@@ -3,6 +3,7 @@
     <rules>
       <Rule active="false" key="java:S120" />
       <Rule active="false" key="java:S112" />
+      <Rule active="false" key="java:S1186" />
       <Rule key="java:S107">
         <params>
           <param key="constructorMax" value="18" />
