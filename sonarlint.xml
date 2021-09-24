@@ -10,6 +10,8 @@
           <param key="max" value="8" />
         </params>
       </Rule>
+      <Rule active="false" key="java:S1192" />
+      <Rule active="false" key="java:S2259" />
     </rules>
   </component>
 </application>
