@@ -4,13 +4,18 @@
       <Rule active="false" key="java:S120" />
       <Rule active="false" key="java:S112" />
       <Rule active="false" key="java:S1186" />
+      <Rule active="false" key="java:S1130" />
       <Rule key="java:S107">
         <params>
           <param key="constructorMax" value="18" />
           <param key="max" value="8" />
         </params>
       </Rule>
-      <Rule active="false" key="java:S1192" />
+      <Rule active="false" key="java:S1192">
+        <params>
+          <param key="threshold" value="6" />
+        </params>
+      </Rule>
       <Rule active="false" key="java:S116" />
       <Rule active="false" key="java:S2259" />
     </rules>
