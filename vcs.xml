@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/webrtc/samples.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ohjinnoo/wemake_test.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\테스트진행" />
