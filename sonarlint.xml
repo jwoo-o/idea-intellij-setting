@@ -50,6 +50,11 @@
       </Rule>
       <Rule active="false" key="Web:S5260" />
       <Rule active="false" key="Web:AvoidCommentedOutCodeCheck" />
+      <Rule key="java:S3776">
+        <params>
+          <param key="Threshold" value="20" />
+        </params>
+      </Rule>
     </rules>
   </component>
 </application>
