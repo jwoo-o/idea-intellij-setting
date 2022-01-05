@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;public void test$EXPR$() throws Exception&#10;{ &#10;    // given&#10;    $END$ &#10;    // when &#10;    &#10;    // then &#10;}&#10;" description="junit test template" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
