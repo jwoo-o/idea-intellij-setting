@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="file_76c027bc-4c2b-46a7-a720-5ba618947540" type="AUTO_DETECTED" />
       <mapping pattern=",gitignore" type="AUTO_DETECTED" />
+      <mapping pattern="file_79be96e6-dee6-4705-8d64-081ee3c1d9f7" type="AUTO_DETECTED" />
+      <mapping pattern="file_76c027bc-4c2b-46a7-a720-5ba618947540" type="AUTO_DETECTED" />
+      <mapping pattern="file_test" type="AUTO_DETECTED" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
