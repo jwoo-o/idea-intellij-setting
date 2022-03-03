@@ -6,6 +6,7 @@
       <mapping pattern="file_76c027bc-4c2b-46a7-a720-5ba618947540" type="AUTO_DETECTED" />
       <mapping pattern="file_test" type="AUTO_DETECTED" />
       <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping ext="jdb" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
