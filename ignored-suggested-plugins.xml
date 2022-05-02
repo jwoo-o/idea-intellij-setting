@@ -5,6 +5,7 @@
         <option value="com.intellij.guice" />
         <option value="com.intellij.bigdatatools" />
         <option value="com.intellij.guice" />
+        <option value="aws.toolkit" />
       </list>
     </option>
   </component>
