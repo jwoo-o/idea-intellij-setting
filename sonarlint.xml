@@ -1,64 +1,307 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="secretsNeverBeenAnalysed" value="false" />
+    <option name="fileExclusions">
+      <list>
+        <option value="**/*.js" />
+        <option value="**/*.html" />
+      </list>
+    </option>
+    <option name="nodejsPath" value="/usr/local/Cellar/node/18.4.0/bin/node" />
+    <option name="rulesByKey">
+      <map>
+        <entry key="Web:AvoidCommentedOutCodeCheck">
+          <value>
+            <Rule active="false" key="Web:AvoidCommentedOutCodeCheck" />
+          </value>
+        </entry>
+        <entry key="Web:BoldAndItalicTagsCheck">
+          <value>
+            <Rule active="false" key="Web:BoldAndItalicTagsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:DoctypePresenceCheck">
+          <value>
+            <Rule active="false" key="Web:DoctypePresenceCheck" />
+          </value>
+        </entry>
+        <entry key="Web:FieldsetWithoutLegendCheck">
+          <value>
+            <Rule active="false" key="Web:FieldsetWithoutLegendCheck" />
+          </value>
+        </entry>
+        <entry key="Web:FlashUsesBothObjectAndEmbedCheck">
+          <value>
+            <Rule active="false" key="Web:FlashUsesBothObjectAndEmbedCheck" />
+          </value>
+        </entry>
+        <entry key="Web:FrameWithoutTitleCheck">
+          <value>
+            <Rule active="false" key="Web:FrameWithoutTitleCheck" />
+          </value>
+        </entry>
+        <entry key="Web:ImgWithoutAltCheck">
+          <value>
+            <Rule active="false" key="Web:ImgWithoutAltCheck" />
+          </value>
+        </entry>
+        <entry key="Web:ItemTagNotWithinContainerTagCheck">
+          <value>
+            <Rule active="false" key="Web:ItemTagNotWithinContainerTagCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LinkToImageCheck">
+          <value>
+            <Rule active="false" key="Web:LinkToImageCheck" />
+          </value>
+        </entry>
+        <entry key="Web:MetaRefreshCheck">
+          <value>
+            <Rule active="false" key="Web:MetaRefreshCheck" />
+          </value>
+        </entry>
+        <entry key="Web:PageWithoutTitleCheck">
+          <value>
+            <Rule active="false" key="Web:PageWithoutTitleCheck" />
+          </value>
+        </entry>
+        <entry key="Web:S1134">
+          <value>
+            <Rule active="false" key="Web:S1134" />
+          </value>
+        </entry>
+        <entry key="Web:S1135">
+          <value>
+            <Rule active="false" key="Web:S1135" />
+          </value>
+        </entry>
+        <entry key="Web:S1827">
+          <value>
+            <Rule active="false" key="Web:S1827" />
+          </value>
+        </entry>
+        <entry key="Web:S4084">
+          <value>
+            <Rule active="false" key="Web:S4084" />
+          </value>
+        </entry>
+        <entry key="Web:S4645">
+          <value>
+            <Rule active="false" key="Web:S4645" />
+          </value>
+        </entry>
+        <entry key="Web:S5254">
+          <value>
+            <Rule active="false" key="Web:S5254" />
+          </value>
+        </entry>
+        <entry key="Web:S5255">
+          <value>
+            <Rule active="false" key="Web:S5255" />
+          </value>
+        </entry>
+        <entry key="Web:S5256">
+          <value>
+            <Rule active="false" key="Web:S5256" />
+          </value>
+        </entry>
+        <entry key="Web:S5257">
+          <value>
+            <Rule active="false" key="Web:S5257" />
+          </value>
+        </entry>
+        <entry key="Web:S5258">
+          <value>
+            <Rule active="false" key="Web:S5258" />
+          </value>
+        </entry>
+        <entry key="Web:S5260">
+          <value>
+            <Rule active="false" key="Web:S5260" />
+          </value>
+        </entry>
+        <entry key="Web:S5264">
+          <value>
+            <Rule active="false" key="Web:S5264" />
+          </value>
+        </entry>
+        <entry key="Web:ServerSideImageMapsCheck">
+          <value>
+            <Rule active="false" key="Web:ServerSideImageMapsCheck" />
+          </value>
+        </entry>
+        <entry key="Web:TableHeaderHasIdOrScopeCheck">
+          <value>
+            <Rule active="false" key="Web:TableHeaderHasIdOrScopeCheck" />
+          </value>
+        </entry>
+        <entry key="Web:TableWithoutCaptionCheck">
+          <value>
+            <Rule active="false" key="Web:TableWithoutCaptionCheck" />
+          </value>
+        </entry>
+        <entry key="Web:UnsupportedTagsInHtml5Check">
+          <value>
+            <Rule active="false" key="Web:UnsupportedTagsInHtml5Check" />
+          </value>
+        </entry>
+        <entry key="java:S107">
+          <value>
+            <Rule key="java:S107">
+              <params>
+                <param key="constructorMax" value="21" />
+                <param key="max" value="8" />
+              </params>
+            </Rule>
+          </value>
+        </entry>
+        <entry key="java:S1075">
+          <value>
+            <Rule active="false" key="java:S1075" />
+          </value>
+        </entry>
+        <entry key="java:S112">
+          <value>
+            <Rule active="false" key="java:S112" />
+          </value>
+        </entry>
+        <entry key="java:S1130">
+          <value>
+            <Rule active="false" key="java:S1130" />
+          </value>
+        </entry>
+        <entry key="java:S116">
+          <value>
+            <Rule active="false" key="java:S116" />
+          </value>
+        </entry>
+        <entry key="java:S1186">
+          <value>
+            <Rule active="false" key="java:S1186" />
+          </value>
+        </entry>
+        <entry key="java:S1192">
+          <value>
+            <Rule active="false" key="java:S1192">
+              <params>
+                <param key="threshold" value="6" />
+              </params>
+            </Rule>
+          </value>
+        </entry>
+        <entry key="java:S120">
+          <value>
+            <Rule active="false" key="java:S120" />
+          </value>
+        </entry>
+        <entry key="java:S1220">
+          <value>
+            <Rule active="false" key="java:S1220" />
+          </value>
+        </entry>
+        <entry key="java:S131">
+          <value>
+            <Rule active="false" key="java:S131" />
+          </value>
+        </entry>
+        <entry key="java:S1452">
+          <value>
+            <Rule active="false" key="java:S1452" />
+          </value>
+        </entry>
+        <entry key="java:S2095">
+          <value>
+            <Rule active="false" key="java:S2095" />
+          </value>
+        </entry>
+        <entry key="java:S2259">
+          <value>
+            <Rule active="false" key="java:S2259" />
+          </value>
+        </entry>
+        <entry key="java:S3034">
+          <value>
+            <Rule active="false" key="java:S3034" />
+          </value>
+        </entry>
+        <entry key="java:S3329">
+          <value>
+            <Rule active="false" key="java:S3329" />
+          </value>
+        </entry>
+        <entry key="java:S3740">
+          <value>
+            <Rule active="false" key="java:S3740" />
+          </value>
+        </entry>
+        <entry key="java:S3776">
+          <value>
+            <Rule key="java:S3776">
+              <params>
+                <param key="Threshold" value="20" />
+              </params>
+            </Rule>
+          </value>
+        </entry>
+      </map>
+    </option>
     <rules>
       <Rule active="false" key="java:S1452" />
+      <Rule active="false" key="java:S1075" />
       <Rule active="false" key="java:S1130" />
+      <Rule active="false" key="java:S1192">
+        <params>
+          <param key="threshold" value="6" />
+        </params>
+      </Rule>
+      <Rule active="false" key="Web:TableWithoutCaptionCheck" />
+      <Rule active="false" key="Web:DoctypePresenceCheck" />
+      <Rule active="false" key="Web:ImgWithoutAltCheck" />
       <Rule active="false" key="Web:PageWithoutTitleCheck" />
       <Rule active="false" key="Web:ServerSideImageMapsCheck" />
+      <Rule active="false" key="Web:S4645" />
+      <Rule active="false" key="java:S131" />
       <Rule active="false" key="java:S112" />
+      <Rule active="false" key="Web:S5257" />
+      <Rule active="false" key="Web:S1134" />
+      <Rule active="false" key="Web:S5258" />
+      <Rule active="false" key="Web:S1135" />
+      <Rule active="false" key="Web:S5255" />
       <Rule active="false" key="Web:FieldsetWithoutLegendCheck" />
+      <Rule active="false" key="Web:S5256" />
+      <Rule active="false" key="java:S2095" />
       <Rule active="false" key="Web:BoldAndItalicTagsCheck" />
+      <Rule active="false" key="Web:S5254" />
+      <Rule active="false" key="Web:S4084" />
+      <Rule active="false" key="java:S3740" />
       <Rule active="false" key="java:S116" />
+      <Rule active="false" key="java:S2259" />
       <Rule active="false" key="java:S3329" />
       <Rule active="false" key="Web:ItemTagNotWithinContainerTagCheck" />
       <Rule active="false" key="Web:MetaRefreshCheck" />
+      <Rule active="false" key="java:S1220" />
+      <Rule active="false" key="Web:S1827" />
+      <Rule active="false" key="java:S1186" />
       <Rule active="false" key="Web:LinkToImageCheck" />
       <Rule active="false" key="Web:FrameWithoutTitleCheck" />
       <Rule active="false" key="Web:FlashUsesBothObjectAndEmbedCheck" />
-      <Rule active="false" key="Web:TableHeaderHasIdOrScopeCheck" />
+      <Rule active="false" key="java:S120" />
+      <Rule active="false" key="Web:UnsupportedTagsInHtml5Check" />
+      <Rule active="false" key="Web:S5264" />
       <Rule key="java:S107">
         <params>
           <param key="constructorMax" value="21" />
           <param key="max" value="8" />
         </params>
       </Rule>
+      <Rule active="false" key="Web:TableHeaderHasIdOrScopeCheck" />
+      <Rule active="false" key="java:S3034" />
+      <Rule active="false" key="Web:S5260" />
       <Rule active="false" key="Web:AvoidCommentedOutCodeCheck" />
       <Rule key="java:S3776">
         <params>
           <param key="Threshold" value="20" />
         </params>
       </Rule>
-      <Rule active="false" key="java:S1075" />
-      <Rule active="false" key="java:S1192">
-        <params>
-          <param key="threshold" value="6" />
-        </params>
-      </Rule>
-      <Rule active="false" key="Web:ImgWithoutAltCheck" />
-      <Rule active="false" key="Web:DoctypePresenceCheck" />
-      <Rule active="false" key="Web:TableWithoutCaptionCheck" />
-      <Rule active="false" key="Web:S4645" />
-      <Rule active="false" key="java:S131" />
-      <Rule active="false" key="Web:S5257" />
-      <Rule active="false" key="Web:S1134" />
-      <Rule active="false" key="Web:S5258" />
-      <Rule active="false" key="Web:S1135" />
-      <Rule active="false" key="Web:S5255" />
-      <Rule active="false" key="Web:S5256" />
-      <Rule active="false" key="java:S2095" />
-      <Rule active="false" key="Web:S5254" />
-      <Rule active="false" key="Web:S4084" />
-      <Rule active="false" key="java:S3740" />
-      <Rule active="false" key="java:S2259" />
-      <Rule active="false" key="Web:S1827" />
-      <Rule active="false" key="java:S1220" />
-      <Rule active="false" key="java:S1186" />
-      <Rule active="false" key="java:S120" />
-      <Rule active="false" key="Web:UnsupportedTagsInHtml5Check" />
-      <Rule active="false" key="Web:S5264" />
-      <Rule active="false" key="java:S3034" />
-      <Rule active="false" key="Web:S5260" />
     </rules>
   </component>
 </application>
