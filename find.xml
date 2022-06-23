@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '…/admin-web/src/main/webapp/WEB-INF/templates/category/category_map_list.html [ws-product-admin.admin-web.main]'" />
+    <option name="defaultScopeName" value="File '…/admin-web/src/main/webapp/WEB-INF/templates/category/category_map_list.html [ws-product-admin.admin-web.main]'" />
+    <option name="SEARCH_SCOPE" value="File '…/admin-web/src/main/webapp/WEB-INF/templates/category/category_map_list.html [ws-product-admin.admin-web.main]'" />
   </component>
 </application>
