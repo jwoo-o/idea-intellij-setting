@@ -14,7 +14,7 @@
     </driver>
     <driver id="java.sql.Driver" name="vertica" driver-class="com.vertica.jdbc.Driver">
       <library>
-        <url>file://$USER_HOME$/Downloads/vertica-jdbc-10.0.0-0.jar</url>
+        <url>file://$USER_HOME$/Documents/vertica-jdbc-10.0.0-0.jar</url>
       </library>
     </driver>
   </component>
